@@ -13,7 +13,7 @@ Este batch fue hecho para las personas que juegan y quieren hacer transmisiones 
 ### Instalación  🤖
 Para ejecutar este script es tan sencillo como abrir el CMD y poner lo siguiente:
 ```
-powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-WebRequest "https://github.com/wyalexz/OBS-Studio/releases/download/Complements/OBS.Studio.US.bat" -OutFile "$env:temp\OBS.bat"; Start-process $env:temp\OBS.bat
+powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-WebRequest "https://github.com/wyalexzz/OBS/releases/download/Complements/OBS.bat" -OutFile "$env:temp\OBS.bat"; Start-process $env:temp\OBS.bat
 ```
 
 ### Instalación Manual 🔧
@@ -27,7 +27,7 @@ Descargaremos los complementos necesarios:
 ### Custom LUTs filters creados by [Gaming Careers](https://www.youtube.com/channel/UClx4eJ_EP9MJdz19JUjKD1w) & [Jordan Wages](https://obsproject.com/forum/threads/free-lut-filter-pack.78307/#post-330293) 🎲
 Descargue y aplique filtros personalizados de LUT para la cámara:
 ```
-powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-WebRequest "https://github.com/wyalexz/OBS-Studio/releases/download/Complements/InstallLUTs.bat"; Start-process $env:temp\InstallLUTs.bat.bat
+powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-WebRequest "https://github.com/wyalexzz/OBS/releases/download/Complements/InstallLUTs.bat"; Start-process $env:temp\InstallLUTs.bat.bat
 ```
 
 ### ReplayBuffer AutoStart 🔗
