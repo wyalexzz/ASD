@@ -20,9 +20,9 @@ powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.Service
 Para la instalación y configuración manual tendremos que instalar [OBS Studio](https://cdn-fastly.obsproject.com/downloads/OBS-Studio-27.2.4-Full-Installer-x64.exe) y realizar los siguientes pasos después de la instalación de OBS y ejecutarlo solo una vez. 
 Descargaremos los complementos necesarios:
 
-* [AppdataAMDOBS](https://github.com/wyalexz/OBS-Studio/releases/download/Complements/AppdataAMDOBS.7z) Todo el contenido debe ser reemplazado en %appdata%\obs-studio
-* [AppdataNvidiaOBS](https://github.com/wyalexz/OBS-Studio/releases/download/Complements/AppdataNvidaOBS.7z) Todo el contenido debe ser reemplazado en %appdata%\obs-studio
-* [ProgramFilesOBS](https://github.com/wyalexz/OBS-Studio/releases/download/Complements/ProgramFileOBS.7z) Todo el contenido debe ser reemplazado en %programfiles%\obs-studio\data\obs-studio
+* [AmdOBS](https://github.com/wyalexzz/OBS/releases/download/Complements/AmdOBS.7z) Todo el contenido debe ser reemplazado en %appdata%\obs-studio
+* [NvidiaOBS](https://github.com/wyalexzz/OBS/releases/download/Complements/NvidaOBS.7z) Todo el contenido debe ser reemplazado en %appdata%\obs-studio
+* [FilesOBS](https://github.com/wyalexzz/OBS/releases/download/Complements/FilesOBS.7z) Todo el contenido debe ser reemplazado en %programfiles%\obs-studio\data\obs-studio
 
 ### Custom LUTs filters creados by [Gaming Careers](https://www.youtube.com/channel/UClx4eJ_EP9MJdz19JUjKD1w) & [Jordan Wages](https://obsproject.com/forum/threads/free-lut-filter-pack.78307/#post-330293) 🎲
 Descargue y aplique filtros personalizados de LUT para la cámara:
@@ -33,5 +33,5 @@ powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.Service
 ### ReplayBuffer AutoStart 🔗
 Para que OBS Studio ReplayBuffer se inicie automáticamente cuando encienda su PC, deberá ejecutar este script a través de CMD:
 ```
-powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-WebRequest "https://github.com/wyalexz/OBS-Studio/releases/download/Complements/ReplayBuffer.bat" -OutFile '%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\ReplayBuffer.bat'
+powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-WebRequest "https://github.com/wyalexzz/OBS/releases/download/Complements/ReplayBuffer.bat" -OutFile '%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\ReplayBuffer.bat'
 ```
